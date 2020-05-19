@@ -37,9 +37,31 @@ vector<string> letterCombinations(string digits) {
     return results;
 }
 
+void backtrack(vector<string> &ans, string combinations, string next_digits) {
+    if (next_digits.empty()) { 
+        ans.emplace_back(combinations);
+        return;
+    }
+    char d = next_digits[0];
+    for (auto c : table[d]) {
+        string tmp = combinations;
+        tmp.push_back(c);
+        backtrack(ans, tmp, next_digits.substr(1));
+    }
+}
+
+
+vector<string> letterCombinations2(string digits) {
+    vector<string> ans;
+    if (!digits.empty()) {
+        backtrack(ans, "", digits);
+    }
+    return ans;
+}
+
 int main() {
     string nums = "279";
-    vector<string> results = letterCombinations(nums);
+    vector<string> results = letterCombinations2(nums);
 
     cout << results.size() ;
     cout << " [" ; for (auto s : results) cout << s << ", "; cout << ']' << endl;
