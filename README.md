@@ -16,6 +16,8 @@
     - [binary_tree_inorder_traversal](./binary_tree_inorder_traversal/)
     - [binary_tree_zigzag_level_order_traversal](./binary_tree_zigzag_level_order_traversal/)
     - [construct_binary_tree_from_preorder_and_inorder_traversal](./construct_binary_tree_from_preorder_and_inorder_traversal/)
+    - [populating_next_right_pointers_in_each_node](./populating_next_right_pointers_in_each_node/)
+    - [kth_smallest_element_in_a_bst](./kth_smallest_element_in_a_bst/)
     - [number_of_islands](./number_of_islands/)
 - Backtracking
     - [letter_combinations_of_a_phone_number](./letter_combinations_of_a_phone_number/)
@@ -31,6 +33,7 @@
     - [find_peak_element](./find_peak_element/)
     - [search_for_a_range](./search_for_a_range/)
     - [merge_intervals](./merge_intervals/)
+    - [search_in_rotated_sorted_array](./search_in_rotated_sorted_array/) (!!)
     - [search_a_2d_matrix_ii](./search_a_2d_matrix_ii/)
 - Dynamic Programming
     - [climbing_stairs](./climbing_stairs/)
@@ -42,8 +45,9 @@
     - [longest_increasing_subsequence](./longest_increasing_subsequence/)
 - Design
     - [serialize_and_deserialize_binary_tree](./serialize_and_deserialize_binary_tree/)
+    - [insert_delete_getrandom_o_1](./insert_delete_getrandom_o_1/)
     - [shuffle_an_array](./shuffle_an_array/)
-    - [task_scheduler](./task_scheduler/) (TODO)
+    - [task_scheduler](./task_scheduler/) 
 - Math
     - [count_primes](./count_primes/)
     - [roman_to_integer](./roman_to_integer/)

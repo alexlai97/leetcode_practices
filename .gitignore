@@ -7,3 +7,5 @@
 !*.rs
 !*/
 !README.md
+
+.ccls-cache/
